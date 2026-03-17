@@ -1,0 +1,58 @@
+
+PHASE 1 (6 Weeks)
+Foundations — Biology + Math Refresh
+The goal here is to get your biology and math to the point where models start making intuitive sense.
+
+1) Neuroscience basics
+Neurons, synapses, action potentials, brain regions. No math yet.
+the single best free resource is Neuroscience Online (neuroscience.uth.tmc.edu) — a full open textbook from UT Houston. Pair it with the first two weeks of Coursera: Computational Neuroscience by the University of Washington (Rajesh Rao & Adrienne Fairhall). That course is free to audit and is specifically designed for people with a CS background.
+
+2) Math refresh
+Linear algebra, calculus, probability. Focus on intuition, not proofs.
+3Blue1Brown's Essence of Linear Algebra and Calculus series on YouTube (free) is perfect — it's built for people who learned this before and need the intuition back, not a first-time learner. Estimated time: 10–12 hours total across both series.
+
+3) Scientific Python
+NumPy, Matplotlib, SciPy, Pandas. Data shapes and visualization.
+NeuralDataScience.github.io (the Neural Data Science in Python book) is free and neuroscience-specific. Much better than a generic NumPy tutorial because every example is about real neural data shapes.
+
+*
+PHASE 2 (8 Weeks)
+Core Computational Models
+The essential text here is Theoretical Neuroscience by Dayan & Abbott. The PDF is freely available on Peter Dayan's website. It's the field's standard reference, and chapters 1–5 cover everything in this phase. Don't try to read it cover to cover — use it as a companion while you code.
+For hands-on coding of models, Neuromatch Academy (neuromatch.io) is outstanding and completely free. Their computational neuroscience track has Jupyter notebooks for Hodgkin-Huxley, LIF neurons, and network models — with video lectures to go with each. This is probably the single most valuable resource in the whole curriculum.
+
+1) Single neuron models
+Hodgkin-Huxley, leaky integrate-and-fire. Simulate your first spike train.
+
+2) Neural coding
+Firing rates, tuning curves, population codes, spike sorting basics.
+
+3) Network models
+Synaptic plasticity, Hebbian learning, recurrent networks, Hopfield nets.
+*
+PHASE 3 (8 Weeks)
+Data Analysis + Real Neural Data
+
+
+1) Signal processing
+Filtering, FFT, spectral analysis, spike detection. LFP and EEG fundamentals.
+This is where it gets exciting. For signal processing, MNE-Python has excellent free tutorials covering everything from raw EEG to spectrograms. Their documentation is genuinely written as a learning resource.
+
+2) Dimensionality reduction
+PCA, t-SNE, UMAP on neural population data.
+Neuromatch Academy again covers dimensionality reduction in their track, with great notebooks on PCA and UMAP applied to neural population data.
+
+3) Open data platforms
+DANDI, OpenNeuro, Allen Brain Atlas, IBL. Download and explore a dataset.
+For open data, start with DANDI Archive (dandiarchive.org) — it uses NWB format (Neurodata Without Borders), which is becoming the standard. The Allen Brain Observatory is also exceptional if you're interested in visual cortex data — they have high-quality calcium imaging and electrophysiology datasets with a Python API.
+
+*
+PHASE 4 (6 Weeks)
+Capstone — Your Own Analysis
+Jonathan Pillow's GLM tutorial notebooks (freely available on GitHub) are the best introduction to generalized linear models for neural data. For the final write-up, treat a Jupyter notebook as your "paper" — narrative, code, plots, and interpretation all in one place.
+
+1) GLMs + decoding
+Fit generalized linear models. Decode behavior from neural activity.
+
+2) Project + write-up
+Choose a dataset, run a full pipeline, document findings in a notebook.
