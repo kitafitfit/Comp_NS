@@ -2,7 +2,7 @@
 
 **Phase:** [1–4]
 **Resources used:** [link or name]
-**Status:** not started / in progress / done
+**Status:** not started / in progress / find new resources / done
 
 ---
 
